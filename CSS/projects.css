@@ -1,0 +1,339 @@
+body{
+    font-family: 'Tilt Warp', cursive;
+    text-align: left;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Tilt Warp', cursive;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+.card:hover .btn {
+    background-color: #000000;
+    color: #fff;
+  }
+
+p{
+    color: #000000;
+}
+
+.description-top {
+    color: #000000;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+
+.year-text {
+    color: #000000;
+}
+
+/* Top Section */
+
+.big-heading {
+    margin-left: 30px;
+    font-size: 2.65rem;
+}
+
+.top-section {
+    text-align: center;
+}
+
+.top-container-section{
+    padding: 0 0;
+    
+}
+
+.top-section img,
+.top-section h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Middle section */
+
+.middle-section {
+    background-color: #fff;
+    color: #fff;
+}
+
+/* Animation Section */
+
+.marquee-home{
+    width: 80%;
+    background-color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 20px;
+    }
+
+    .marquee-home div{
+        font-size: 1.6rem;
+        font-family: 'Tilt Warp';
+        animation: animate-home 20s linear infinite;
+        padding-left: 130%;
+        display: inline-block;
+    }
+
+    @keyframes animate-home{
+        100%{
+        transform: translate(-100%, 0);
+        }
+}
+
+/* Contact section */
+
+#contact {
+    background-color: #f8f9fa;
+    padding-bottom: 40px;
+
+}
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background-color: #000000;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #000000;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#msg {
+    color: #000000;
+    margin-top: -32px;
+    margin-left: 100px;
+    display: block;
+}
+
+/* Footer section */
+
+.black-section {
+    background-color: black;
+    padding: 3% 7%;
+    text-align: center;
+}
+
+.footer-link{
+    font-family: 'Tilt Warp';
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 0;
+    margin: 5%;
+}
+
+.footer-copyrightname {
+    padding-top: 10px;
+    color: #fff;
+  }
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    .popeye-picture{
+        max-width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-home-button {
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+        text-align: left;
+        position: relative;
+        right: 0;
+    }
+
+    .big-heading{
+        font-size: 30px;
+        padding: 0;
+        text-align: center;
+        margin: 0 0 0;
+    }
+
+    .description-top {
+        margin: 20px 40px;
+        font-size: 18px;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+    }
+
+    .section-link{
+        font-size: 17px;
+        margin: 10px;
+        display: block;
+        padding: 0;
+    }
+
+    /* .marquee-home div {
+        font-size: 1.2rem;
+        animation-duration: 15s;
+    } */
+
+    .marquee-home div {
+        display: none;
+    }
+
+    .colored-section{
+        margin-top: -30px;
+    }
+
+    .contact-left, .contact-right {
+        flex-basis: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 845px) {
+
+    #footer {
+        margin-top: 0;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-home-button {
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+        text-align: left;
+        position: relative;
+        right: 0;
+    }
+
+    .description-top {
+        margin: 20px 40px;
+        font-size: 16px;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+    }
+
+    .black-section {
+        text-align: left;
+        font-size: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+    }
+
+    .footer-link{
+        font-size: 13px;
+        text-align: left;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .big-heading{
+        font-size: 30px;
+        padding: 0;
+        text-align: center;
+        margin: 0 0 0;
+    }
+
+    .section-link{
+        display: block;
+        padding: 0;
+    }
+
+    /* .marquee-home div{
+        font-size: 1rem;
+        animation-duration: 20s;
+        padding-left: 150%;
+    } */
+
+    .marquee-home div {
+        display: none;
+    }
+
+    .colored-section {
+        margin-top: -30px;
+    }
+
+    .container-fluid {
+        padding: 0 0;
+    }
+
+    .contact-left, .contact-right {
+        flex-basis: 100%;
+    }
+}

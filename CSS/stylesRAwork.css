@@ -1,0 +1,672 @@
+body{
+    font-family: 'Tilt Warp', cursive;
+    text-align: left;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Tilt Warp', cursive;
+    color: #000000;
+}
+
+p {
+    font-family: 'Tilt Warp', cursive;
+}
+
+a:hover{
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+li {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 1.2rem;
+}
+
+.top-description {
+    margin: 0 0 0 100px;
+    padding-left: 180px;
+    padding-top: 5%;
+    font-size: 1.2rem;
+    line-height: 2.56rem;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Containers */
+  
+
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.feature-words {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #fff;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Tilt Warp', cursive;
+    font-size: 2.65rem;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Title Section */
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 15%;
+}
+
+/* Title Image */
+
+.title-game-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-left: 35%;
+    margin-bottom: 20px;
+}
+
+.title-game-image {
+    max-width: 561px;
+    height: auto;
+    padding-top: 5%;
+}
+
+.title-image{
+    width: 39%;
+    position: relative;
+    left: 100px;
+}
+
+/* Features Section */
+
+.team-size {
+    margin-left: 12%;
+}
+
+#features{
+     position: relative;
+     z-index: 1;
+}
+
+.feature-box{
+    padding: 40px 12px;
+}
+
+.feature-box-02 {
+    padding: 0;
+    margin-left: 0;
+}
+
+.icon{
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #565656;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.gif-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.overview-description {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.overview-description02 {
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    padding-left: 3%;
+}
+
+.overview-description03 {
+    font-size: 1.2rem;
+    padding-top: 5%;
+}
+
+.mocap-image02 {
+    position: relative;
+    right: 50px;
+}
+
+/* Pictures Section */
+
+#testimonials .carousel-inner {
+    height: 1250px; /* set your desired height */
+  }
+
+#testimonials{
+    background-color: #fff;
+}
+
+.pictures-image{
+    width: 30%;
+    margin: 20px;
+}
+
+.pictures-image-ss {
+    margin-top: 40px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100%;
+  transform: translate(0, -100%);
+  filter: invert(1);
+  margin-top: -50px;
+}
+
+.carousel-item {
+    margin: 0;
+}
+
+#press{
+    background-color: #000000;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Walkthrough Section */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+  
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Animation Section */
+
+.marquee-home{
+    width: 80%;
+    background-color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 20px;
+    }
+
+    .marquee-home div{
+        font-size: 1.6rem;
+        font-family: 'Tilt Warp';
+        animation: animate-home 20s linear infinite;
+        padding-left: 130%;
+        display: inline-block;
+    }
+
+    @keyframes animate-home{
+        100%{
+        transform: translate(-100%, 0);
+        }
+}
+
+/* Footer section */
+
+.black-section {
+    background-color: black;
+    padding: 3% 7%;
+    text-align: center;
+}
+
+.footer-link{
+    font-family: 'Tilt Warp';
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 0;
+    margin: 5%;
+}
+
+.footer-copyrightname {
+    padding-top: 10px;
+    color: #fff;
+  }
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    .popeye-picture{
+        max-width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-home-button {
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+        text-align: left;
+        position: relative;
+        right: 0;
+        top: 30px;
+    }
+
+    .title-game-image {
+        max-width: 80%;
+        height: auto;
+        padding: 0 0 0 0;
+        position: relative;
+        right: 150px;
+    }
+
+    .big-heading{
+        font-size: 30px;
+        padding: 0;
+        text-align: center;
+        margin: 0 0 0;
+    }
+
+    .top-description {
+        margin: 20px 80px;
+        font-size: 18px;
+        padding: 20px 0 0 0;
+        line-height: 2rem;
+    }
+
+    #testimonials .carousel-inner {
+        height: 650px; /* set your desired height */
+    }
+
+    .pictures-image {
+        width: 30%;
+        margin: 20px auto;
+        margin-top: 120px;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+        padding: 0;
+        margin: 0 -20px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 100%;
+        transform: translate(0, -100%);
+        filter: invert(1);
+    }
+
+    .carousel-item {
+        width: -1%;
+        margin: 0;
+    }
+
+    .carousel-inner {
+        width: 0.1%;
+        margin: 0 0;
+        padding: 0;
+    }
+
+    .team-size {
+        margin-left: 0;
+    }
+
+    .feature-box {
+        padding: 50px 12px;
+    }
+
+    .feature-words {
+        font-size: 18px;
+        margin: 20%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .overview-description,
+    .overview-description02,
+    .overview-description03 {
+        font-size: 18px;
+        margin: 0 40px 20px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .mocap-image01 {
+        position: relative;
+        right: 10px;
+    }
+
+    .mocap-image02 {
+        position: relative;
+        right: 10px;
+    }
+
+    .feature-box-02 {
+        margin: 0 0 0 200px;
+        padding: 0;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+    }
+
+    .section-link{
+        font-size: 17px;
+        margin: 10px;
+        display: block;
+        padding: 0;
+    }
+
+    /* .marquee-home div {
+        font-size: 1.2rem;
+        animation-duration: 15s;
+    } */
+
+    .marquee-home div {
+        display: none;
+    }
+
+    .colored-section{
+        margin-top: -30px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    #footer {
+        margin-top: 0;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-home-button {
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+        text-align: left;
+        position: relative;
+        right: 0;
+        top: 30px;
+    }
+
+    .title-game-image {
+        max-width: 80%;
+        height: auto;
+        padding: 0 0 0 0;
+        position: relative;
+        right: 65px;
+    }
+
+    .top-description {
+        margin: 20px 40px;
+        font-size: 16px;
+        padding: 20px 0 20px 0;
+        line-height: 1.5rem;
+    }
+
+    /* .pictures-image {
+        width: 30%;
+        margin: 20px auto;
+        margin-top: 190px;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+        padding: 0;
+        margin: 0 -20px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 100%;
+        transform: translate(0, -100%);
+        filter: invert(1);
+    }
+
+    .carousel-item {
+        width: -1%;
+        margin: 0;
+    }
+
+    .carousel-inner {
+        width: 0.1%;
+        margin: 0 0;
+        padding: 0;
+    } */
+
+    #testimonials .carousel-inner {
+        height: 650px; /* set your desired height */
+    }
+
+    .team-size {
+        margin-left: 0;
+    }
+
+    .feature-box {
+        padding: 50px 12px;
+    }
+
+    .feature-words {
+        font-size: 16px;
+        margin: 20%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .overview-description {
+        font-size: 16px;
+        margin: 0 40px 20px;
+    }
+
+    .overview-description02 {
+        font-size: 17px;
+        margin: 0 0 20px;
+    }
+
+    .overview-description03 {
+        font-size: 16px;
+        margin: 0 40px 20px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    .mocap-image01 {
+        position: relative;
+        left: 5px;
+    }
+
+    .mocap-image02 {
+        position: relative;
+        left: 5px;
+    }
+
+    .feature-box-02 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+    }
+
+    .black-section {
+        text-align: left;
+        font-size: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+    }
+
+    .footer-link{
+        font-size: 13px;
+        text-align: left;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .big-heading{
+        font-size: 30px;
+        padding: 0;
+        padding-top: 5%;
+        text-align: center;
+        margin: 0 0 0;
+    }
+
+    .section-link{
+        display: block;
+        padding: 0;
+    }
+
+    /* .marquee-home div{
+        font-size: 1rem;
+        animation-duration: 20s;
+        padding-left: 150%;
+    } */
+
+    .marquee-home div {
+        display: none;
+    }
+
+    .colored-section {
+        margin-top: -30px;
+    }
+
+    .container-fluid {
+        padding: 0 0;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .black-section {
+        text-align: left;
+        font-size: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+    }
+
+    .footer-link{
+        font-size: 13px;
+        text-align: left;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .big-heading{
+        font-size: 30px;
+        padding: 0;
+        padding-top: 5%;
+        text-align: center;
+        margin: 0 0 0;
+    }
+
+    .section-link{
+        display: block;
+        padding: 0;
+    }
+
+    /* .marquee-home div{
+        font-size: 1rem;
+        animation-duration: 20s;
+        padding-left: 150%;
+    } */
+
+    #testimonials .carousel-inner {
+        height: 650px; /* set your desired height */
+    }
+
+    .marquee-home div {
+        display: none;
+    }
+
+    .colored-section {
+        margin-top: -30px;
+    }
+
+    .container-fluid {
+        padding: 0 0;
+    }
+}
